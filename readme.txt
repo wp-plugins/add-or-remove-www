@@ -25,7 +25,7 @@ For more information and support, check out: http://www.legalcompetitiveintellig
 
 The installation and use is very straightforward. You should:
 
-1. Upload `add-or-remove-www.php` to the `/wp-content/plugins/` directory
+1. Upload the folder `add-or-remove-www` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. From the 'Settings' menu, there should be a new option, called 'Add Or Remove Www'
 
