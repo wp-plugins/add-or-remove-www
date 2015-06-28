@@ -1,6 +1,6 @@
 === Add or Remove Www ===
 Contributors: citywanderer, stubgo
-Donate link: http://www.legalcompetitiveintelligence.com/wordpress-plugin-add-or-remove-www/
+Donate link: http://www.wpsos.io/wordpress-plugin-add-or-remove-www/
 Tags: domains,domain,subdomains,subdomain,www,options,configuration,config
 Requires at least: 3.0.1
 Tested up to: 4.01
@@ -17,9 +17,9 @@ It's common that you'll create a content link or include an image, linking to ht
 
 One solution is to go through every image and link, one by one, and make sure they're all consistent. Another solution is... to use our plugin.
 
-We plan on adding more options to be edited -- if you have any other suggestions, please let us know! You can contact us via http://www.legalcompetitiveintelligence.com/wordpress-plugin-add-or-remove-www/
+We plan on adding more options to be edited -- if you have any other suggestions, please let us know! You can contact us via http://www.wpsos.io/wordpress-plugin-add-or-remove-www/
 
-For more information and support, check out: http://www.legalcompetitiveintelligence.com/wordpress-plugin-add-or-remove-www/
+For more information and support, check out: http://www.wpsos.io/wordpress-plugin-add-or-remove-www/
 
 == Installation ==
 
@@ -38,11 +38,11 @@ Note: the version 1.0 does NOT change all the previously existing URLs, it affec
 
 = Where can I get some support? =
 
-Check out our site, at: http://www.legalcompetitiveintelligence.com/wordpress-plugin-add-or-remove-www/
+Check out our site, at: http://www.wpsos.io/wordpress-plugin-add-or-remove-www/
 
 = I have some suggestions for other options I want edited =
 
-Let us know, via: http://www.legalcompetitiveintelligence.com/wordpress-plugin-add-or-remove-www/
+Let us know, via: http://www.wpsos.io/wordpress-plugin-add-or-remove-www/
 
 == Screenshots ==
 
