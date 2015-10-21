@@ -49,4 +49,18 @@ function mm2_modify_content_urls( $content ){
 
 //Add filters to run the functions when saving content
 add_filter( 'content_save_pre', 'mm2_modify_content_urls', 10, 1 );
+
+/**
+ * Add links to WPSOS
+ */
+function mm2_set_plugin_meta( $links, $file ) {
+
+	if ( strpos( $file, 'add-or-remove-www.php' ) !== false ) {
+
+		$links = array_merge( $links, array( '<a href="http://www.wpsos.io/wordpress-plugin-add-or-remove-www/">' . __( 'Plugin details', 'simple-embed-code' ) . '</a>' ) );
+		$links = array_merge( $links, array( '<a href="http://www.wpsos.io/">' . __( 'WPSOS - WordPress Security, Optimization & Speed', 'simple-embed-code' ) . '</a>' ) );
+	}
+	return $links;
+}
+add_filter( 'plugin_row_meta', 'mm2_set_plugin_meta', 10, 2 );
 ?>

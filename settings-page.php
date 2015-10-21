@@ -27,6 +27,7 @@ function mm2_display_settings_page(){
 	$domain_name =  preg_replace('/^www\./','',$_SERVER['SERVER_NAME']);
 	?>
 		<div class="wrap">
+			<div class="wpsos-global-notification">By using this plugin, you’re eligible for a 5% discount on <a href="http://www.wpsos.io">WPSOS' security services</a>: virus cleanup, site securing and security maintenance!</div>
 			<h2>Add or Remove Www</h2>
 			<form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
 				<?php if( isset( $_POST['mm2_settings_save'] ) ):?>
@@ -61,5 +62,22 @@ function mm2_display_settings_page(){
 			</form>
 		</div>
 	<?php
+}
+add_action( 'admin_head', 'mm2_display_custom_css' );
+function mm2_display_custom_css(){ 
+	$output='<style>
+	.wpsos-global-notification {
+	    padding: 1px 10px;
+	    background: #fff;
+	    height: 30px;
+	    line-height: 30px;
+	}
+	
+	.wpsos-global-notification a {
+		color: #17a05e;
+		font-weight: bold;
+	}
+	</style>';
+	echo $output;
 }
 ?>
